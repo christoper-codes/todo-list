@@ -204,6 +204,8 @@ apps/
    - Hacer login
    - Usar el token para crear/listar/actualizar tareas
 
+![Image](docs/postman-img.png)
+
 ## 🛠️ Tecnologías Utilizadas
 
 - **Django REST Framework** - Framework para APIs REST

@@ -131,7 +131,7 @@ Authorization: Bearer tu_access_token_aqui (access)
 ### Ejemplo de Registro
 
 ```json
-POST /api/auth/register/
+POST /api/auth/register
 {
     "first_name": "Chris",
     "last_name": "Santos",
@@ -144,7 +144,7 @@ POST /api/auth/register/
 ### Ejemplo de Login
 
 ```json
-POST /api/auth/login/
+POST /api/auth/login
 {
     "email": "chris@email.com",
     "password": "password123"
@@ -156,7 +156,7 @@ POST /api/auth/login/
 ### Crear una Tarea
 
 ```json
-POST /api/tasks/
+POST /api/tasks
 Authorization: Bearer tu_access_token
 
 {

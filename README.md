@@ -102,19 +102,19 @@ La API estará disponible en: `http://localhost:8000`
 
 | Método | Endpoint | Descripción |
 |--------|----------|-------------|
-| POST | `/api/auth/register/` | Registrar nuevo usuario |
-| POST | `/api/auth/login/` | Iniciar sesión |
-| POST | `/api/auth/logout/` | Cerrar sesión |
+| POST | `/api/auth/register` | Registrar nuevo usuario |
+| POST | `/api/auth/login` | Iniciar sesión |
+| POST | `/api/auth/logout` | Cerrar sesión |
 
 ### Tareas
 
 | Método | Endpoint | Descripción |
 |--------|----------|-------------|
-| GET | `/api/tasks/` | Listar todas las tareas |
-| POST | `/api/tasks/` | Crear nueva tarea |
-| PUT | `/api/tasks/{id}/` | Actualizar tarea completa |
-| PATCH | `/api/tasks/{id}/` | Actualizar tarea parcial |
-| DELETE | `/api/tasks/{id}/` | Eliminar tarea |
+| GET | `/api/tasks` | Listar todas las tareas |
+| POST | `/api/tasks` | Crear nueva tarea |
+| PUT | `/api/tasks/{id}` | Actualizar tarea completa |
+| PATCH | `/api/tasks/{id}` | Actualizar tarea parcial |
+| DELETE | `/api/tasks/{id}` | Eliminar tarea |
 
 
 ## 🔐 Autenticación
